@@ -1,5 +1,6 @@
 # BiQuKan
 基于python2.7的[笔趣看](http://www.biqukan.com/)小说网站爬取
+本爬虫主要用于服务器使用，所以返回数据均为json
 
 # 如何使用
 
@@ -40,5 +41,7 @@
 
     # 下载整个书籍的章节
     biqukan.download_chapters('1_1094')
-  
+
+# index json说明
+
 

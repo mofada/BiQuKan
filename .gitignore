@@ -101,10 +101,10 @@ ENV/
 .mypy_cache/
 
 # 所有的章节文件
-chapters/
+
 
 # 输出的json
-out/
+
 
 #所有的json文件
 *.json
