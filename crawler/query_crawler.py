@@ -1,8 +1,25 @@
 # coding=utf-8
 import json
-
+"""
+    python 2.7
+    小说查询json
+    [
+        {
+            "status": "",
+            "update_time": "2017-10-05",  --小说更新时间
+            "description": "万界融合,灵力消散,……",  --小说描述
+            "word_count": "",
+            "title": "五行天",  --小说标题
+            "url": "0_2",  --小说地址/id
+            "author": "方想",  --小说作者
+            "cover": "http://www.biqukan.com/files/article/image/0/2/2s.jpg",  --小说封面
+            "update_url": "16239233",  --最新章节地址
+            "type": "玄幻小说",  --小说类型
+            "update_chapter": "第六百五十章这是什么剑术？"  --最新章节标题
+        }
+    ]
+"""
 from bean.book_query import BookQuery
-from config.config import get_out_directory
 from parser.html_parser import HtmlParser
 
 
