@@ -1,5 +1,4 @@
 # coding=utf-8
-import os
 
 from biqukan.biqukan import BiQuKan
 
