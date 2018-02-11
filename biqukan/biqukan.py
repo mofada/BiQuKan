@@ -61,7 +61,7 @@ class BiQuKan(object):
         if query is None or query == '':
             return
         # query = quote(query)
-        url = 'http://zhannei.baidu.com/cse/search?p=%s&q=%s&s=2758772450457967865&srt=def&nsid=0' % (page, query)
+        url = 'http://zhannei.baidu.com/cse/search?p=%s&q=%s&s=2758772450457967865&srt=def&nsid=0&click=1' % (page, query)
         html = HtmlDownload.download(url)
         return QueryCrawler(html)
 
